@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <div id="content">
+    <h1>Auto-Hustler</h1>
+
+    <!--KEEP in popup.html-->
+    <!-- style="display: none;" before username input. change to visable after and make username input displa none-->
+    <div id="LoggedInView" style="display: visible;">
+      <h2>Items</h2>
+      <div id="itemsDiv">
+        <table id="ItemsTable">
+          <tr>
+            <th style="width: 175px;">Description</th>
+            <th>Price</th>
+            <!--add ability to change price of listing-->
+            <th>Last Refreshed</th>
+            <!--<th>Choose multiple</th>-->
+            <th style="display: table; margin: 0 auto;">Refresh</th>
+          </tr>
+        </table>
+      </div>
+      <div id="refreshAll">
+        <br>
+        <!--<h3>Click to refresh all</h3>-->
+        <button id="refreshListings">Refresh All</button>
+      </div>
+      <br>
+      <button id="SignOutButton">Sign Out</button>
+    </div>
+  </div>
+</body>
+<script src="commonfunctions.js"></script>
+<script src="popup.js"></script>
+<script src="logout.js"></script>
+</html>

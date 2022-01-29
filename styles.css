@@ -1,0 +1,38 @@
+body{
+    width: auto;
+    height: auto;
+}
+button {
+    height: 30px;
+    width: auto;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    display: table;
+    margin: 0 auto;
+  }
+  
+button.current {
+    box-shadow: 0 0 0 2px white,
+                0 0 0 4px black;
+  }
+
+/*table{
+} */
+
+#refreshAll{
+    display: table;
+    margin: 0 auto;
+}
+
+#ItemsTable{
+    table-layout: fixed;
+    width: 450px;
+    text-align: left;
+}
+#LoginTable{
+    width: 325px;
+}
+ /*#content{
+    background-color: rgba(220, 20, 60, 0.384);
+ }*/    
